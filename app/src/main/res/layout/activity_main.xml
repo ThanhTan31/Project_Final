@@ -8,19 +8,4 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="169dp"
-        android:layout_height="154dp"
-        app:srcCompat="@drawable/home"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="288dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="WELCOME TO MY APP"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="619dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
