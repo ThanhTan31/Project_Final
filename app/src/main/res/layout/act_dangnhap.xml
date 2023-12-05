@@ -27,9 +27,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/email"
+
             android:drawablePadding="5dp"
-            android:hint="Email"/>
+            android:textStyle="bold"
+            android:hint="Tên đăng nhập"/>
 
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -50,9 +51,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawablePadding="5dp"
-            android:drawableLeft="@drawable/key"
+
             android:textStyle="bold"
-            android:hint="Password" />
+            android:hint="Mật khẩu" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
