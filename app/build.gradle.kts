@@ -26,6 +26,9 @@ android {
             )
         }
     }
+    buildFeatures{
+        viewBinding
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -47,5 +50,6 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("androidx.recyclerview:recyclerview:1.3.2")
     implementation ("androidx.recyclerview:recyclerview-selection:1.1.0")
+    implementation ("androidx.cardview:cardview:1.0.0")
 
 }

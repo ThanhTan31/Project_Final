@@ -14,8 +14,7 @@
         app:itemIconTint="@android:color/system_secondary_fixed"
         app:itemTextColor="@color/black"
         app:menu="@menu/menu_botnagiv"
-
-        />
+        tools:targetApi="34" />
 
 </RelativeLayout>
 
