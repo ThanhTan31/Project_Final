@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">ProjectFinal</string>
-    <string name="action_home">Trang chủ</string>
-    <string name="cart">Giỏ hàng</string>
-    <string name="Personal">Hồ sơ</string>
+    <string name="home"></string>
+    <string name="cart"></string>
+    <string name="profile"></string>
+    <string name="chat"></string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

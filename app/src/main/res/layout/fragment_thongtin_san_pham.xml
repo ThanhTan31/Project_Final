@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Hình ảnh lớn -->
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home" />
+
+    <!-- Tên sản phẩm -->
+    <TextView
+        android:id="@+id/textViewProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên Sản Phẩm"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp" />
+
+    <!-- Giá sản phẩm -->
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá: 100 000 đ"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="4dp" />
+
+    <!-- Khung mô tả sản phẩm -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mô Tả Sản Phẩm:"
+            android:layout_marginTop="8dp"
+            android:maxLines="5"
+            android:ellipsize="end"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideInset"
+            android:layout_gravity="start"
+            android:paddingEnd="8dp"
+            android:paddingRight="8dp"/>
+    </ScrollView>
+
+
+    <!-- Phần bình luận -->
+    <EditText
+        android:id="@+id/editTextComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Viết bình luận..."
+        android:layout_marginTop="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonPostComment"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/pink"
+        android:text="Đăng Bình Luận" />
+
+    <!-- Danh sách bình luận -->
+    <ListView
+        android:id="@+id/listViewComments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="16dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBuyNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Mua Ngay"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/goldenrod"/>
+</LinearLayout>

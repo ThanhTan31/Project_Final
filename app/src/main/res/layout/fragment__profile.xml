@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="16dp"
+        >
 
         <!-- Avatar -->
         <ImageView
@@ -57,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kiểm Tra Đơn Hàng"
+            android:background="@color/cream"
             android:layout_marginEnd="80dp"
             android:layout_marginStart="80dp"
             android:layout_marginBottom="8dp"/>
@@ -70,7 +72,9 @@
             android:layout_marginStart="80dp"
             android:layout_marginEnd="80dp"
             android:layout_marginTop="50dp"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:background="@color/cream"
+            />
 
         <!-- Đăng xuất -->
         <androidx.appcompat.widget.AppCompatButton
