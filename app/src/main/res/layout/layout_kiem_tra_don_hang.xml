@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:marginStart="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Sản Phẩm"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số Tiền"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/textViewOrderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tình Trạng Đơn Hàng"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>
