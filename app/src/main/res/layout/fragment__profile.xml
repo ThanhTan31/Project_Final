@@ -75,11 +75,33 @@
             android:layout_marginBottom="8dp"
             android:background="@color/cream"
             />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAddItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm sản phẩm mới"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/goldenrod"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDeleteItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xóa sản phầm"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="8dp"
 
+            android:background="@color/goldenrod"
+            />
         <!-- Đăng xuất -->
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonLogout"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="150dp"
             android:layout_marginStart="150dp"
             android:background="@color/red"

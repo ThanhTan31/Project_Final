@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ProjectFinal"
         tools:targetApi="31">
         <activity
+            android:name=".add_sanpham"
+            android:exported="false" />
+        <activity
             android:name=".QuenMatKhau"
             android:exported="false" />
         <activity
